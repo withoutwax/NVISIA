@@ -1,0 +1,86 @@
+.case-study {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+/*   grid-template-rows: repeat(3, 1fr); */
+  width: 1280px;
+  grid-auto-rows: minmax(320px, auto);
+
+  border: 1px solid;
+  background-color: grey;
+}
+.case-study > div {
+  border: 1px solid red;
+}
+.case-study-01 {
+  grid-row: 1 / 3;
+
+  display: flex;
+  justify-content: center;
+}
+.case-study-02 {
+  grid-column: 2 / 4;
+  display: flex;
+}
+.case-study-03 {
+  grid-row: 2 / 4;
+  display: flex;
+  flex-direction: column;
+}
+.case-study-04 {
+  grid-row: 2 / 4;
+  display: flex;
+  flex-direction: column;
+}
+.case-study-05 {
+  display: flex;
+}
+
+
+.case-study-type-A-image {
+  flex: 1;
+
+  background-color: yellow;
+}
+.case-study-type-A-info {
+  flex: 1;
+  align-self: center;
+  padding-left: 20px;
+
+  box-sizing: border-box;
+  color: white;
+  background-color: blue;
+}
+
+.case-study-type-B-image {
+  flex: 1;
+  order: 1;
+
+  background-color: yellow;
+}
+.case-study-type-B-info {
+  flex: 1;
+  order: 0;
+  align-self: center;
+  padding-right: 20px;
+
+  text-align: right;
+  box-sizing: border-box;
+  color: white;
+  background-color: blue;
+}
+
+.case-study-type-C-image {
+  flex: 1;
+
+  background-color: yellow;
+}
+.case-study-type-C-info {
+  flex: 1;
+  align-self: left;
+  padding-left: 20px;
+
+  text-align: left;
+  box-sizing: border-box;
+  color: white;
+  background-color: blue;
+}
