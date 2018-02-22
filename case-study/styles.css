@@ -22,16 +22,16 @@
   display: flex;
 }
 .case-study-03 {
-  grid-row: 2 / 4;
+  grid-column: 2 / 4;
   display: flex;
-  flex-direction: column;
 }
 .case-study-04 {
-  grid-row: 2 / 4;
   display: flex;
-  flex-direction: column;
 }
 .case-study-05 {
+  display: flex;
+}
+.case-study-06 {
   display: flex;
 }
 
@@ -69,7 +69,7 @@
   background-color: blue;
 }
 
-.case-study-type-C-image {
+/* .case-study-type-C-image {
   flex: 1;
 
   background-color: yellow;
@@ -83,4 +83,18 @@
   box-sizing: border-box;
   color: white;
   background-color: blue;
+} */
+
+.case-study-type-D-image {
+  position: relative;
+  background-color: yellow;
+}
+
+.case-study-type-D-info {
+  align-self: center;
+  padding-left: 20px;
+  background-color: blue;
+
+  color: white;
+  position: absolute;
 }
