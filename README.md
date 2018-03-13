@@ -7,3 +7,5 @@ This repository contains works that I did for my Spring 2018 internship @NVISIA.
 
 ## Works
 **Case Study** - A simple mockup / prototype of Case Study page created with CSS-GRID and Flexbox.
+
+**Events Mockup** - A simple mockup / prototype for Events page created with CSS-GRID and Flexbox (WIP).
