@@ -1,0 +1,53 @@
+h1 {
+  font-size: 60px;
+}
+h2 {
+  font-size: 40px;
+}
+h3 {
+  font-size: 30px;
+}
+h4 {
+  font-size: 24px;
+}
+h5 {
+  font-size: 14px;
+}
+h6 {
+  font-size: 12px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-auto-rows: minmax(120px, auto);
+
+  font-family: 'Montserrat', sans-serif;
+
+  width: 1280px;
+}
+
+/* Development Build */
+.container > section {
+  border: 1px solid red;
+}
+/* Development Build End */
+
+
+.articles-container {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.articles-container > article {
+  border: 1px solid blue;
+  width: 300px;
+  height: 200px;
+  margin: 10px;
+
+  /* flex: 1; */
+}
+p {
+  border: 1px solid blue;
+}
