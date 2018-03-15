@@ -46,6 +46,16 @@ p {
 
   width: 1000px;
 }
+@media only screen and (max-width: 1025px){
+  .articles-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: minmax(300px, auto);
+
+
+  }
+}
+
 .articles-container > article {
   width: 450px;
   height: auto;
