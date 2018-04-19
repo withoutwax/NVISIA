@@ -1,4 +1,6 @@
 /* background-black-01: #2C2C2C; */
+/* NVISIA orange-color: #F58221 */
+/* grey-01: #969696 */
 
 * {
   font-family: 'Montserrat', sans-serif;
@@ -24,7 +26,15 @@ button {
   background-color: Transparent;
   padding: 10px 20px;
 }
-
+.quotes {
+  font-weight: 300;
+  font-size: .8em;
+}
+.quotes-source {
+  font-weight: 300;
+  font-size: .8em;
+  color: #969696;
+}
 
 /* SECTION 01 */
 .section-01-container {
@@ -71,6 +81,9 @@ button {
 .section-02-title {
   /* justify-self: end; */
   text-align: right;
+}
+.section-02-title > h3 {
+  color: #F58221;
 }
 
 .section-02-content {
