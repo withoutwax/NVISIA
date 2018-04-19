@@ -11,7 +11,7 @@ p {
   font-weight: 300;
 }
 
-.container {
+.image-competition {
   position: relative;
 
   /* background: */
@@ -20,7 +20,7 @@ p {
     /* bottom, image */
     /* url(http://www.excellaglobal.com/blog/wp-content/uploads/2016/02/hotel-lobby-interiors.jpg); */
 }
-.article-01 {
+.image-competition-text {
   position: absolute;
   background-color: rgba(10, 55, 127, .5);
   color: white;
