@@ -6,7 +6,7 @@
 }
 
 h2 {
-  font-weight: 600;
+  font-weight: 700;
   font-style: normal;
 }
 h3 {
@@ -25,6 +25,8 @@ button {
   padding: 10px 20px;
 }
 
+
+/* SECTION 01 */
 .section-01-container {
   display: grid;
   grid-template-columns: 1fr 2fr;
@@ -52,6 +54,29 @@ button {
 /* .section-01-container > * {
   border: solid 1px red;
 } */
+
+
+/* SECTION 02 */
+.section-02-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-column-gap: 60px;
+
+  /* background-color: #2C2C2C; */
+  /* color: white; */
+
+  border: solid 1px red;
+}
+
+.section-02-title {
+  /* justify-self: end; */
+  text-align: right;
+}
+
+.section-02-content {
+  align-self: center;
+}
+
 
 
 /* MODULAR CSS */
