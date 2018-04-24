@@ -75,7 +75,7 @@ button {
   /* background-color: #2C2C2C; */
   /* color: white; */
 
-  border: solid 1px red;
+  /* border: solid 1px red; */
 }
 
 .section-02-title {
@@ -88,6 +88,33 @@ button {
 
 .section-02-content {
   align-self: center;
+}
+
+
+/* SECTION 03 */
+.section-03-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-column-gap: 60px;
+
+  background-color: #F4F4F4;
+  /* color: white; */
+
+  /* border: solid 1px red; */
+}
+
+.section-03-title {
+  /* justify-self: end; */
+  text-align: right;
+  align-self: center;
+}
+.section-03-title > p {
+  /* color: #F58221; */
+}
+
+.section-03-content {
+  /* align-self: center; */
+  padding-top: 0px;
 }
 
 
@@ -306,3 +333,6 @@ button {
 .margin-180 {margin: 180px;}
 .margin-190 {margin: 190px;}
 .margin-200 {margin: 200px;}
+
+/* BOX SHADOW */
+.box-shadow-grey-01 {box-shadow: 0px 0px 20px #dbdbdb;}
