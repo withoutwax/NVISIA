@@ -3,6 +3,10 @@
   margin: 0;
 }
 
+h1 {
+  font-size: 3em;
+  font-weight: 400;
+}
 h2 {
   font-weight: 700;
   font-style: normal;

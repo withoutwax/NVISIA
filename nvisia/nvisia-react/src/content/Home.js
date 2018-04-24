@@ -1,17 +1,36 @@
 import React, { Component } from 'react';
 import './Home.css';
+
+// Header-Banner
+import headerBanner01 from '../assets/header-banner/Header-Image-Banner-1-1.jpg';
 // Images
 import connectOrange from '../assets/connect-orange.png';
 import connectWhite from '../assets/connect-white.png';
 import connectBlack from '../assets/connect-black.png';
-import clientLogos from '../assets/clients-logos-01.png';
-import caseStudy from '../assets/case-study-home.png';
-import eventsBackdrop from '../assets/home-events-backdrop.png';
+import clientLogos from '../assets/home/clients-logos-01.png';
+import caseStudy from '../assets/home/case-study-home.png';
+import eventsBackdrop from '../assets/home/home-events-backdrop.png';
+// Assets
+
 
 class Home extends Component {
   render() {
     return (
       <div>
+        <section className="section-00-container">
+          <img src={headerBanner01} />
+          <article className="section-00-banner-text">
+            <h1>
+              adopt. build. enable.
+            </h1>
+            <br/>
+            <p>
+              We adopt, build, enable new technologies for you.<br />
+              This is our line, our way to build and deliver great software.
+            </p>
+          </article>
+        </section>
+
         <section className="section-01-container padding-top-150 padding-bottom-150">
           <article className="section-01-title">
             <h3>01</h3>

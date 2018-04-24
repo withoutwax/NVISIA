@@ -2,6 +2,25 @@
 /* NVISIA orange-color: #F58221 */
 /* grey-01: #969696 */
 
+/* SECTION-00 */
+.section-00-container > img {
+  position: relative;
+  width: 100%;
+}
+.section-00-banner-text {
+  position: absolute;
+  color: white;
+  top: 0;
+
+  padding-top: 40vh;
+  padding-left: 7vw;
+}
+/* .section-00-banner-line {
+  color: white;
+  stroke-width: 2;
+} */
+
+
 /* SECTION 01 */
 .section-01-container {
   display: grid;
@@ -102,7 +121,7 @@
   align-self: center;
 }
 .section-04-title > h3 {
-  color: #F58221;
+  /* color: #F58221; */
 }
 
 .section-04-content {
