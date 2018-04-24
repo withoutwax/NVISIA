@@ -1,0 +1,111 @@
+/* background-black-01: #2C2C2C; */
+/* NVISIA orange-color: #F58221 */
+/* grey-01: #969696 */
+
+/* SECTION 01 */
+.section-01-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-column-gap: 60px;
+
+  background-color: #2C2C2C;
+  color: white;
+
+  /* border: solid 1px red; */
+}
+.section-01-title {
+  /* justify-self: end; */
+  text-align: right;
+}
+
+.section-01-content {
+  align-self: center;
+}
+.section-01-content > button {
+  color: white;
+  border: solid 3px white;
+}
+
+/* TEST */
+/* .section-01-container > * {
+  border: solid 1px red;
+} */
+
+
+/* SECTION 02 */
+.section-02-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-column-gap: 60px;
+
+  /* background-color: #2C2C2C; */
+  /* color: white; */
+
+  /* border: solid 1px red; */
+}
+
+.section-02-title {
+  /* justify-self: end; */
+  text-align: right;
+}
+.section-02-title > h3 {
+  color: #F58221;
+}
+
+.section-02-content {
+  align-self: center;
+}
+
+
+/* SECTION 03 */
+.section-03-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-column-gap: 60px;
+
+  background-color: #F4F4F4;
+  /* color: white; */
+
+  /* border: solid 1px red; */
+}
+
+.section-03-title {
+  /* justify-self: end; */
+  text-align: right;
+  align-self: center;
+}
+.section-03-title > p {
+  /* color: #F58221; */
+}
+
+.section-03-content {
+  /* align-self: center; */
+  padding-top: 0px;
+}
+
+
+/* SECTION 04 */
+.section-04-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-column-gap: 60px;
+
+  /* background-color: #F4F4F4; */
+  /* color: white; */
+
+  /* border: solid 1px red; */
+}
+
+.section-04-title {
+  /* justify-self: end; */
+  text-align: right;
+  align-self: center;
+}
+.section-04-title > h3 {
+  color: #F58221;
+}
+
+.section-04-content {
+  /* align-self: center; */
+  padding-top: 0px;
+}
