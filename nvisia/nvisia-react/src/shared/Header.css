@@ -1,0 +1,15 @@
+.header-nav {
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: flex-end;
+  /* border: 1px red solid; */
+}
+.header-nav > * {
+  align-self: center;
+  /* margin: 0 20px; */
+  margin-left: 50px;
+  /* border: 1px red solid; */
+}
+.nvisia-logo {
+  margin-right: auto;
+}

@@ -31,6 +31,10 @@ li {
   font-weight: 300;
   font-size: .8em;
 }
+a {
+  font-size: .8em;
+  font-weight: 300;
+}
 
 button {
   color: black;
@@ -49,7 +53,11 @@ button {
 }
 
 .App-header {
-  background-color: #222;
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+
+  /* background-color: #222; */
   color: white;
 }
 
