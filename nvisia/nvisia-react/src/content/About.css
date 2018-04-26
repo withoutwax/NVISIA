@@ -1,0 +1,23 @@
+.about-section-01-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+
+  justify-content: center;
+}
+
+.about-section-01-container > img {
+  width: 100%;
+
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+}
+.about-section-01-banner-text {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+  color: white;
+  align-self: center;
+  justify-self: center;
+
+  /* background-color: red; */
+}
