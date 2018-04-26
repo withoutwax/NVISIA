@@ -34,7 +34,34 @@
 
 }
 
+/* About - Vimeo */
 .about-vimeo-01-container {
   display: flex;
   justify-content: center;
+}
+
+/* SECTION 03 */
+.about-section-03-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-column-gap: 60px;
+}
+/* .about-section-03-container > * {
+  border: red solid 1px;
+} */
+.about-section-03-container > img {
+  justify-self: flex-end;
+}
+.about-section-03-article {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: repeat(3, 1fr);
+  align-items: center;
+  /* border: red solid 1px; */
+}
+.about-section-03-article > div > h2 {
+  color: #F58221;
+}
+.about-section-03-article-img-01 {
+  grid-row: 1 / 4;
 }
