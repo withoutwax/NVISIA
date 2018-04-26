@@ -34,7 +34,7 @@
 
 }
 
-/* About - Vimeo */
+/* SECTION02 - About - Vimeo */
 .about-vimeo-01-container {
   display: flex;
   justify-content: center;
@@ -64,4 +64,25 @@
 }
 .about-section-03-article-img-01 {
   grid-row: 1 / 4;
+}
+
+/* SECTION 04 */
+.about-section-04-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 60px;
+}
+.about-section-04-container > img {
+  justify-self: flex-end;
+}
+/* .about-section-04-article {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+} */
+.about-section-04-article > * {
+  border: red solid 1px;
+}
+.about-section-04-article > button {
+  border: solid 3px black;
 }

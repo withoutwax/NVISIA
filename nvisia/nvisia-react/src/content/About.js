@@ -9,6 +9,7 @@ import connectBlack from '../assets/connect-black.png';
 import headerBanner02 from '../assets/header-banner/Header-Banner-02.jpg';
 import aboutBanner01 from '../assets/about/about-banner-01.png';
 import connectBig from '../assets/about/about-connect-big.png';
+import historyImg01 from '../assets/about/about-company-history.png';
 
 class About extends Component {
   render() {
@@ -28,6 +29,7 @@ class About extends Component {
           </article>
         </section>
 
+        {/* SECTION 01 */}
         <section className="about-section-01-container">
           <img src={aboutBanner01} />
           <article className="about-section-01-banner-text">
@@ -50,11 +52,12 @@ class About extends Component {
           </article>
         </section>
 
-        {/* About - Vimeo Video */}
+        {/* About - Vimeo Video - SECTION 02*/}
         <section className="about-vimeo-01-container padding-bottom-100">
           <ReactPlayer className="about-vimeo-01" url="https://vimeo.com/erichinesphotography/cityscapechicago" width="90%" height="700px" playing loop />
         </section>
 
+        {/* SECTION 03 */}
         <section className="about-section-03-container padding-top-200 padding-bottom-200">
           <img src={connectOrange} />
           <article className="about-section-03-banner-text padding-right-200">
@@ -86,9 +89,32 @@ class About extends Component {
                 </p>
               </div>
             </div>
-
           </article>
         </section>
+
+        {/* SECTION 04 */}
+        <section className="about-section-04-container padding-top-200 padding-bottom-200">
+          <img src={historyImg01} />
+          <article className="about-section-04-banner-text padding-right-200">
+            <h2>
+              HISTORY
+            </h2>
+            <br/>
+            <p className="padding-right-300">
+              Our team members join NVISIA to build a career, not just to have a job. Being part of a culture that values hard work, growth opportunities, and having fun gives our staff the foundation on which to build a successful career of delivering for our clients.
+            </p>
+            <div className="about-section-04-article margin-top-40">
+              <h2>Where it all began</h2>
+              <button type="button" name="about-us" className="margin-top-60">
+                LEARN MORE ABOUT US
+              </button>
+            </div>
+          </article>
+        </section>
+
+        
+
+
       </div>
     );
   }
