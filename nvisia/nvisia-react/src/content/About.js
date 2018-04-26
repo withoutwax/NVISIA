@@ -10,6 +10,9 @@ import headerBanner02 from '../assets/header-banner/Header-Banner-02.jpg';
 import aboutBanner01 from '../assets/about/about-banner-01.png';
 import connectBig from '../assets/about/about-connect-big.png';
 import historyImg01 from '../assets/about/about-company-history.png';
+import icStars from '../assets/about/ic-stars.png';
+import mcDonald from '../assets/about/mcdonald.png';
+import osotAmerica from '../assets/about/osot-America-0911s.png';
 
 class About extends Component {
   render() {
@@ -93,7 +96,7 @@ class About extends Component {
         </section>
 
         {/* SECTION 04 */}
-        <section className="about-section-04-container padding-top-200 padding-bottom-200">
+        <section className="about-section-04-container padding-top-200">
           <img src={historyImg01} />
           <article className="about-section-04-banner-text padding-right-200">
             <h2>
@@ -112,9 +115,29 @@ class About extends Component {
           </article>
         </section>
 
-        
-
-
+        {/* SECTION 05 */}
+        <section className="about-section-05-container padding-top-200">
+          <img src={connectOrange} />
+          <article className="about-section-05-banner-text">
+            <h2>
+              COMMUNITY SERVICES
+            </h2>
+          </article>
+        </section>
+        <section className="about-section-0501-container padding-bottom-100">
+          <article>
+            <img src={icStars} />
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+          </article>
+          <article>
+            <img src={mcDonald} />
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+          </article>
+          <article>
+            <img src={osotAmerica} />
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+          </article>
+        </section>
       </div>
     );
   }

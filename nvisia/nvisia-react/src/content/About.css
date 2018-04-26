@@ -70,11 +70,12 @@
 .about-section-04-container {
   display: grid;
   grid-template-columns: 1fr 2fr;
-  grid-template-rows: repeat(2, 1fr);
   grid-column-gap: 60px;
+  /* border: 1px solid red; */
 }
 .about-section-04-container > img {
   justify-self: flex-end;
+  /* border: 1px solid red; */
 }
 /* .about-section-04-article {
   display: grid;
@@ -85,4 +86,32 @@
 }
 .about-section-04-article > button {
   border: solid 3px black;
+}
+
+/* SECTION 05 */
+.about-section-05-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-column-gap: 60px;
+}
+.about-section-05-container > img {
+  justify-self: flex-end;
+  /* border: 1px solid red; */
+}
+/* SECTION 0501 */
+.about-section-0501-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  align-items: flex-end;
+}
+.about-section-0501-container > article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.about-section-0501-container > article > p {
+  margin-top: 30px;
+  width: 300px;
 }
