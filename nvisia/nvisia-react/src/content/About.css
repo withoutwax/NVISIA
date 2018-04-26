@@ -115,3 +115,39 @@
   margin-top: 30px;
   width: 300px;
 }
+
+/* SECTION 06 */
+.about-section-06-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-column-gap: 60px;
+}
+.about-section-06-container > img {
+  justify-self: flex-end;
+}
+
+.about-leadership-outer-container {
+  display: flex;
+  justify-content: center;
+  /* border: 1px red solid; */
+  /* background-color: red; */
+}
+.about-leadership {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(6, auto);
+  grid-gap: 60px;
+  width: 50vw;
+
+  /* border: 1px red solid; */
+}
+/* .about-leadership > * {
+  border: 1px red solid;
+} */
+#board-of-directors {
+  grid-column: 1 / 4;
+  /* grid-row: 1 / 2; */
+}
+#leadership-team {
+  grid-column: 1 / 4;
+}

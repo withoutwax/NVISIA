@@ -13,6 +13,8 @@ import historyImg01 from '../assets/about/about-company-history.png';
 import icStars from '../assets/about/ic-stars.png';
 import mcDonald from '../assets/about/mcdonald.png';
 import osotAmerica from '../assets/about/osot-America-0911s.png';
+// LEADERSHIP
+import leadershipPhoto from '../assets/about/leadership/leadership-sample.png';
 
 class About extends Component {
   render() {
@@ -138,6 +140,36 @@ class About extends Component {
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
           </article>
         </section>
+
+        {/* SECTION 06 */}
+        <section className="about-section-06-container padding-top-200 padding-bottom-200">
+          <img src={connectOrange} />
+          <article>
+            <h2>
+              LEADERSHIP
+            </h2>
+            <br />
+            <p className="padding-right-300">
+              Our Leadership team guides the best and brightest problem solvers in the industry. We get our inspiration from building platforms that touch real lives with every release.
+            </p>
+          </article>
+        </section>
+        <div className="about-leadership-outer-container padding-bottom-200">
+          <section className="about-leadership">
+            <h2 id="board-of-directors">BOARD OF DIRECTORS</h2>
+            <img src={leadershipPhoto} />
+            <img src={leadershipPhoto} />
+            <img src={leadershipPhoto} />
+            <h2 id="leadership-team">LEADERSHIP TEAM</h2>
+            <img src={leadershipPhoto} />
+            <img src={leadershipPhoto} />
+            <img src={leadershipPhoto} />
+            <img src={leadershipPhoto} />
+            <img src={leadershipPhoto} />
+            <img src={leadershipPhoto} />
+          </section>
+        </div>
+
       </div>
     );
   }
