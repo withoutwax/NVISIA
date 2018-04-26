@@ -21,3 +21,20 @@
 
   /* background-color: red; */
 }
+
+.about-section-02-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-column-gap: 60px;
+}
+.about-section-02-container > img {
+  justify-self: flex-end;
+}
+.about-section-02-banner-text {
+
+}
+
+.about-vimeo-01-container {
+  display: flex;
+  justify-content: center;
+}
