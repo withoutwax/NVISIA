@@ -24,7 +24,7 @@ class About extends Component {
           <img src={headerBanner02} />
           <article className="section-00-banner-text">
             <h1>
-              About.
+              ABOUT.
             </h1>
             <br/>
             <p>

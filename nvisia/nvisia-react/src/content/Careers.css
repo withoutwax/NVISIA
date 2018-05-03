@@ -1,0 +1,17 @@
+.careers-section-01-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-column-gap: 60px;
+}
+.careers-section-01-container > img {
+  justify-self: flex-end;
+}
+.careers-section-01-banner-text {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+  color: white;
+  align-self: center;
+  justify-self: center;
+
+  /* background-color: red; */
+}

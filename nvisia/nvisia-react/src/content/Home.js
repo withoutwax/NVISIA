@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './Home.css';
+import './Shared.css';
 
 // Header-Banner
 import headerBanner01 from '../assets/header-banner/Header-Image-Banner-1-1.jpg';

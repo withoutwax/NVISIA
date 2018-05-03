@@ -1,0 +1,13 @@
+/* SECTION-00 BANNER */
+.section-00-container > img {
+  position: relative;
+  width: 100%;
+}
+.section-00-banner-text {
+  position: absolute;
+  color: white;
+  top: 0;
+
+  padding-top: 40vh;
+  padding-left: 7vw;
+}
