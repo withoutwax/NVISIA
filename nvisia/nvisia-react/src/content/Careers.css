@@ -46,7 +46,7 @@
 .careers-section-03-container {
   display: grid;
   grid-template-columns: 250px auto 250px;
-  grid-template-rows: repeat(2, auto);
+  grid-template-rows: repeat(3, auto);
   /* justify-content: center; */
 }
 .careers-section-03-container > h2 {
@@ -68,4 +68,14 @@
 }
 .careers-section-03-positions > li {
   margin: 10px 0px;
+}
+#careers-section-banner-drop-us-a-line {
+  grid-column: 2 / 3;
+  grid-row: 3 / 4;
+
+  padding-top: 100px;
+  text-align: center;
+}
+#careers-section-banner-drop-us-a-line > span {
+  color: #F58221;
 }

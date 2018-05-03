@@ -77,7 +77,7 @@ class Careers extends Component {
           <article className="careers-section-03-banner-text">
             <div>
               <h3>Chicago</h3>
-              <p>Title</p>
+              <p className="padding-top-20 padding-left-30">Title</p>
               <svg height="2" width="1300">
                 <line x1="0" y1="0" x2="1300" y2="0"  style={{stroke:'black', strokeWidth:'1.5px'}} />
               </svg>
@@ -93,7 +93,7 @@ class Careers extends Component {
             </div>
             <div>
               <h3>Milwaukee</h3>
-              <p>Title</p>
+              <p className="padding-top-20 padding-left-30">Title</p>
               <svg height="2" width="1300">
                 <line x1="0" y1="0" x2="1300" y2="0"  style={{stroke:'black', strokeWidth:'1.5px'}} />
               </svg>
@@ -106,6 +106,12 @@ class Careers extends Component {
               </ul>
             </div>
           </article>
+          <p id="careers-section-banner-drop-us-a-line">
+            We are always looking for candidates who are willing to take the challenge.<br />
+            Don’t see your position?<br />
+            <br />
+            Drop us a line at <span>careers@nvisia.com</span>
+          </p>
         </section>
 
       </div>
