@@ -1,17 +1,71 @@
+/* SECTION 01 */
 .careers-section-01-container {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  grid-column-gap: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  /* grid-template-columns: 1fr 2fr; */
+  /* grid-column-gap: 60px; */
 }
-.careers-section-01-container > img {
-  justify-self: flex-end;
-}
-.careers-section-01-banner-text {
-  grid-column: 1 / 2;
-  grid-row: 1 / 2;
-  color: white;
-  align-self: center;
-  justify-self: center;
+
+.careers-section-01-banner-text > h3 {
+  font-size: 1.5em;
+  text-align: center;
 
   /* background-color: red; */
+}
+
+/* SECTION 02 */
+.careers-section-02-container {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-rows: auto 1fr;
+  grid-gap: 20px;
+  color: white;
+
+  background-color: #2C2C2C;
+}
+.careers-section-02-container > img {
+  justify-self: flex-end;
+
+  grid-row: 1 / 2;
+}
+.careers-section-02-banner-text {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+
+  /* Grid inside a Grid */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 40px;
+  grid-row-gap: 60px;
+}
+
+
+/* SECTION 03 */
+.careers-section-03-container {
+  display: grid;
+  grid-template-columns: 250px auto 250px;
+  grid-template-rows: repeat(2, auto);
+  /* justify-content: center; */
+}
+.careers-section-03-container > h2 {
+  grid-column: 2 / 3;
+  justify-self: center;
+}
+.careers-section-03-banner-text {
+  grid-column: 2 / 3;
+
+  /* Grid inside a Grid */
+  display: grid;
+  grid-template-rows: repeat(2, auto);
+  grid-row-gap: 100px;
+  justify-content: flex-start;
+}
+.careers-section-03-positions {
+  display: flex;
+  flex-direction: column;
+}
+.careers-section-03-positions > li {
+  margin: 10px 0px;
 }
