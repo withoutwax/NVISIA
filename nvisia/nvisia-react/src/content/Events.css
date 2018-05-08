@@ -1,23 +1,9 @@
-/* EVENTS CARD */
-.events-card {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  grid-template-rows: auto;
-
-  border: 1px solid black;
-  padding: 20px;
-  width: 400px;
-}
-.events-card > * {
-  border: 2px dotted red;
-}
-
-.events-section-01-container {
+.events-section-container {
   display: grid;
   grid-template-columns: 1fr 2fr;
   grid-column-gap: 60px;
 }
-.events-section-01-banner-title {
+.events-section-banner-title {
   justify-self: flex-end;
 
   /* Flexbox inside a grid */
@@ -25,12 +11,20 @@
   flex-direction: column;
   align-items: flex-end;
 }
-.events-section-01-banner-title > h1 {
+.events-section-banner-title > h1 {
   font-size: 10em;
 }
-
-.events-section-01-banner-text {
-
+.events-section-banner-text {
   /* Grid inside Grid */
   display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr 1fr;
+  grid-column-gap: 25px;
+  grid-row-gap: 50px;
+}
+
+.events-section-tutorial-banner-text {
+  display: grid;
+  grid-template-rows: auto;
+  grid-row-gap: 30px;
 }

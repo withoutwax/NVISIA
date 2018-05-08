@@ -1,0 +1,12 @@
+.events-tutorials {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 30px;
+
+  align-items: center;
+}
+#events-tutorials-img {
+  grid-column: 1 / 2;
+  grid-row: 1 / 4;
+}

@@ -3,10 +3,21 @@
   grid-template-columns: 2fr 1fr;
   grid-template-rows: auto;
 
-  border: 1px solid black;
-  padding: 20px;
+  /* border: 1px solid black; */
+  padding: 30px;
   width: 400px;
+  border-radius: 3px;
+  box-shadow: 0px 0px 20px #bababa;
 }
 .events-card > * {
-  border: 2px dotted red;
+  /* box-shadow: 0px 0px 20px #bababa; */
+}
+
+#events-card-button {
+  background-color: black;
+  color: white;
+  border-radius: 15px;
+  height: 40px;
+  /* width: auto; */
+  /* border: 5px solid red; */
 }

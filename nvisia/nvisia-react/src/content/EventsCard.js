@@ -20,11 +20,11 @@ class Cards extends Component {
         <h4 id="events-card-title">{this.state.title}</h4>
         <img id="events-card-img" src={this.state.logo} />
         <div id="events-card-date">
-          <p>{this.state.location}</p>
+          <p><strong>{this.state.location}</strong></p>
           <p>{this.state.date}</p>
         </div>
         <button type="button" name="about-us" id="events-card-button" className="margin-top-60">
-          CLICK TO REGISTER
+          REGISTER
         </button>
       </div>
 
