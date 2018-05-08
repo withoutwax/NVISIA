@@ -82,7 +82,7 @@
   grid-template-columns: repeat(2, 1fr);
 } */
 .about-section-04-article > * {
-  border: red solid 1px;
+  /* border: red solid 1px; */
 }
 .about-section-04-article > button {
   border: solid 3px black;

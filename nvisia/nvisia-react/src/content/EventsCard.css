@@ -1,0 +1,12 @@
+.events-card {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: auto;
+
+  border: 1px solid black;
+  padding: 20px;
+  width: 400px;
+}
+.events-card > * {
+  border: 2px dotted red;
+}
