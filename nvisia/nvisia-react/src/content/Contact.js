@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './Contact.css';
+import './ContactForm.css';
 
 class Contact extends Component {
   render() {
@@ -19,19 +20,30 @@ class Contact extends Component {
               Drop us a line and we’ll get back to you.
             </p>
           </article>
+
+          {/*Text Input Effects by https://tympanus.net/Development/TextInputEffects/index.html*/}
           <article className="contact-section-00-banner-text">
-            <div>
-              <p>First Name</p>
-            </div>
-            <div>
-              <p>Last Name</p>
-            </div>
-            <div>
-              <p>How can we help you?</p>
-            </div>
-            <div>
+            <span className="input input--isao">
+              <input className="input__field input__field--isao" type="text" id="input-38" />
+              <label className="input__label input__label--isao" for="input-38" data-content="First Name">
+                <span className="input__label-content input__label-content--isao">First Name</span>
+              </label>
+            </span>
+            <span className="input input--isao">
+              <input className="input__field input__field--isao" type="text" id="input-39" />
+              <label className="input__label input__label--isao" for="input-39" data-content="Middle Name">
+                <span className="input__label-content input__label-content--isao">Last Name</span>
+              </label>
+            </span>
+            <span className="input input--isao">
+              <input className="input__field input__field--isao" type="text" id="input-40" />
+              <label className="input__label input__label--isao" for="input-40" data-content="Last Name">
+                <span className="input__label-content input__label-content--isao">Message</span>
+              </label>
+            </span>
+            <span class="input input--isao">
               <p>Submit</p>
-            </div>
+            </span>
           </article>
         </section>
       </div>
