@@ -6,14 +6,14 @@ import './CaseStudy.css';
 class CaseStudy extends Component {
   render() {
     return (
-      <div class="case-study">
-        <div class="case-study-01">
+      <div className="case-study">
+        <div className="case-study-01">
         {/* Case Study 01 */}
-        <div class="case-study-type-A-image" >
+        <div className="case-study-type-A-image" >
           {/* Img 01 */}
-          <li class="sprite" id="image-01"></li>
+          <li className="sprite" id="image-01"></li>
         </div>
-        <div class="case-study-type-A-info">
+        <div className="case-study-type-A-info">
           <h1>01</h1>
           <br />
           {/*
@@ -24,14 +24,33 @@ class CaseStudy extends Component {
           <p>STERIGENICS</p>
         </div>
       </div>
+
       {/* Case Study 02 */}
-      <div class="case-study-02">
-        <div class="case-study-type-A-image">
-          {/* Img 02 */}
-          <li class="sprite" id="image-02"></li>
-        </div>
-        <div class="case-study-type-A-info">
+      <div className="case-study-02">
+        <div className="case-study-type-A-info">
           <h1>02</h1>
+          <br />
+          {/*
+          <svg height="10" width="20">
+            <line x1="0" y1="0" x2="20" y="0" style="stroke:rgb(245, 130, 33); stroke-width:5" />
+          </svg>
+          */}
+          <p>ELSEVIER</p>
+        </div>
+        <div className="case-study-type-A-image">
+          {/* Img 02 */}
+          <li className="sprite" id="image-02"></li>
+        </div>
+      </div>
+
+      {/* Case Study 03 */}
+      <div className="case-study-03">
+        <div className="case-study-type-D-image">
+          {/* Img 03 */}
+          <li className="sprite" id="image-03"></li>
+        </div>
+        <div className="case-study-type-D-info">
+          <h1>03</h1>
           <br />
           {/*
           <svg height="10" width="20">
@@ -41,40 +60,31 @@ class CaseStudy extends Component {
           <p>AMERICAN SIGNAL</p>
         </div>
       </div>
-      <div class="case-study-03">
-        <div class="case-study-type-D-image">
-          IMAGE GOES HERE
+
+      {/* Case Study 04 */}
+      <div className="case-study-04">
+        <div className="case-study-type-B-image">
+        {/* Img 04 */}
+        <li className="sprite" id="image-04"></li>
         </div>
-        <div class="case-study-type-D-info">
-          <h1>03</h1>
-          <br />
-          {/*
-          <svg height="10" width="20">
-            <line x1="0" y1="0" x2="20" y="0" style="stroke:rgb(245, 130, 33); stroke-width:5" />
-          </svg>
-          */}
-          <p>ACCUITY</p>
-        </div>
-      </div>
-      <div class="case-study-04">
-        <div class="case-study-type-B-image">
-          IMAGE GOES HERE
-        </div>
-        <div class="case-study-type-B-info">
+        <div className="case-study-type-B-info">
           <h1>04</h1>
           <br />
           {/*
           <svg height="10" width="20">
             <line x1="0" y1="0" x2="20" y="0" style="stroke:rgb(245, 130, 33); stroke-width:5" />
           </svg>*/}
-          <p>ADELMAN</p>
+          <p>ACCUITY</p>
         </div>
       </div>
-      <div class="case-study-05">
-      <div class="case-study-type-D-image">
-          IMAGE GOES HERE
-        </div> -->
-        <div class="case-study-type-D-info">
+
+      {/* Case Study 05 */}
+      <div className="case-study-05">
+        <div className="case-study-type-D-image">
+          {/* Img 05 */}
+          <li className="sprite" id="image-05"></li>
+        </div>
+        <div className="case-study-type-D-info">
           <h1>05</h1>
           <br />
           {/*
@@ -82,24 +92,10 @@ class CaseStudy extends Component {
             <line x1="0" y1="0" x2="20" y="0" style="stroke:rgb(245, 130, 33); stroke-width:5" />
           </svg>
           */}
-          <p>ELSEVIER</p>
-        </div>
-      </div>
-      <div class="case-study-06">
-        <div class="case-study-type-D-image">
-          IMAGE GOES HERE
-        </div>
-        <div class="case-study-type-D-info">
-          <h1>06</h1>
-          <br />
-          {/*
-          <svg height="10" width="20">
-            <line x1="0" y1="0" x2="20" y="0" style="stroke:rgb(245, 130, 33); stroke-width:5" />
-          </svg>
-          */}
           <p>ADELMAN</p>
         </div>
       </div>
+
     </div>
     );
   }

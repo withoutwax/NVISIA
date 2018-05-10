@@ -23,8 +23,12 @@
   font-weight: bold;
 }
 
+.case-study li {
+  margin-bottom: 0px;
+}
+
 .sprite {
-  background: url(../../assets/work/case-study-sprites.jpg);
+  background: url(../../assets/work/case-study-sprites-03.jpg);
 }
 
 .case-study-01 {
@@ -34,32 +38,51 @@
   justify-content: center;
 }
 #image-01 {
-
   width: 320px; /* Icon width */
   height: 640px; /* Icon height */
   display: inline-block; /* Display icon as inline block */
-  background-position: -200 0; /* Icon background position in sprite */
+  background-position: -200px 0px; /* Icon background position in sprite */
 }
 .case-study-02 {
-  grid-column: 2 / 4;
+  grid-column: 1 / 2;
+  grid-row: 3 / 4;
   display: flex;
 }
 #image-02 {
-
   width: 320px; /* Icon width */
   height: 320px; /* Icon height */
   display: inline-block; /* Display icon as inline block */
-  background-position: -200 0; /* Icon background position in sprite */
+  background-position: -1525px 0px; /* Icon background position in sprite */
 }
 .case-study-03 {
   grid-column: 2 / 4;
   display: flex;
 }
+#image-03 {
+  width: 320px; /* Icon width */
+  height: 320px; /* Icon height */
+  display: inline-block; /* Display icon as inline block */
+  background-position: -1050px 0px; /* Icon background position in sprite */
+}
 .case-study-04 {
-  display: flex;
+  grid-column: 2 / 3;
+  grid-row: 2 / 4;
+}
+#image-04 {
+  width: 320px; /* Icon width */
+  height: 320px; /* Icon height */
+  display: inline-block; /* Display icon as inline block */
+  background-position: -1000px -380px; /* Icon background position in sprite */
 }
 .case-study-05 {
-  display: flex;
+  grid-column: 3 / 4;
+  grid-row: 2 / 4;
+}
+#image-05 {
+  width: 320px; /* Icon width */
+  height: 320px; /* Icon height */
+  display: inline-block; /* Display icon as inline block */
+  background-position: -1390px -380px; /* Icon background position in sprite */
 }
 .case-study-06 {
   display: flex;
