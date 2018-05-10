@@ -16,7 +16,7 @@
 
 }
 .work-section-01-banner-title {
-  justify-self: flex-end;
+  justify-self: end;
 }
 /* Grid inside a grid */
 .work-section-01-banner-text-02 {
