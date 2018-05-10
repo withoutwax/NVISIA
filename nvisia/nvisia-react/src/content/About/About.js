@@ -2,19 +2,19 @@ import React, { Component } from 'react';
 import ReactPlayer from 'react-player';
 import './About.css';
 
-import connectOrange from '../assets/connect-orange.png';
-import connectWhite from '../assets/connect-white.png';
-import connectBlack from '../assets/connect-black.png';
+import connectOrange from '../../assets/connect-orange.png';
+import connectWhite from '../../assets/connect-white.png';
+import connectBlack from '../../assets/connect-black.png';
 
-import headerBanner02 from '../assets/header-banner/Header-Banner-02.jpg';
-import aboutBanner01 from '../assets/about/about-banner-01.png';
-import connectBig from '../assets/about/about-connect-big.png';
-import historyImg01 from '../assets/about/about-company-history.png';
-import icStars from '../assets/about/ic-stars.png';
-import mcDonald from '../assets/about/mcdonald.png';
-import osotAmerica from '../assets/about/osot-America-0911s.png';
+import headerBanner02 from '../../assets/header-banner/Header-Banner-02.jpg';
+import aboutBanner01 from '../../assets/about/about-banner-01.png';
+import connectBig from '../../assets/about/about-connect-big.png';
+import historyImg01 from '../../assets/about/about-company-history.png';
+import icStars from '../../assets/about/ic-stars.png';
+import mcDonald from '../../assets/about/mcdonald.png';
+import osotAmerica from '../../assets/about/osot-America-0911s.png';
 // LEADERSHIP
-import leadershipPhoto from '../assets/about/leadership/leadership-sample.png';
+import leadershipPhoto from '../../assets/about/leadership/leadership-sample.png';
 
 class About extends Component {
   render() {
