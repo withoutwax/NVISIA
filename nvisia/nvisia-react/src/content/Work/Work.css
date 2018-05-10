@@ -10,7 +10,6 @@
   height: 400px;
 
 }
-
 .work-section-01-client-img {
   grid-column: 1 / 3;
   width: 99vw;
@@ -19,10 +18,24 @@
 .work-section-01-banner-title {
   justify-self: flex-end;
 }
-
 /* Grid inside a grid */
 .work-section-01-banner-text-02 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 60px;
+}
+
+/* SECTION 02 */
+.work-section-02-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr auto;
+  grid-gap: 60px;
+}
+.work-section-02-banner-title {
+  justify-self: flex-end;
+}
+.work-section-02-case-study {
+  grid-column: 1 / 4;
+  justify-self: center;
 }

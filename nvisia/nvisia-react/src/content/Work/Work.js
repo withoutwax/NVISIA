@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './Work.css';
+import CaseStudy from './CaseStudy';
 
 import connectOrange from '../../assets/connect-orange.png';
 import connectWhite from '../../assets/connect-white.png';
@@ -56,6 +57,23 @@ class Work extends Component {
             </div>
           </article>
         </section>
+
+        {/* SECTION 02 */}
+        <section className="work-section-02-container padding-top-100">
+          <article className="work-section-02-banner-title">
+            <img src={connectOrange} width="50px" alt="connect-white"/>
+          </article>
+          <article className="work-section-02-banner-text">
+            <h2>OUR CLIENTS</h2>
+            <p>Our Clients are not just a somebody we can help.
+  They are our family.</p>
+          </article>
+          <article className="work-section-02-case-study margin-top-100">
+            <CaseStudy />
+          </article>
+
+        </section>
+
       </div>
     );
   }
