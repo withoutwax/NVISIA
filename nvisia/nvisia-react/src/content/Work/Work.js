@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import './Work.css';
 
-import connectOrange from '../assets/connect-orange.png';
-import connectWhite from '../assets/connect-white.png';
-import connectBlack from '../assets/connect-black.png';
-import headerClient from '../assets/header-banner/Header-Client.jpg';
+import connectOrange from '../../assets/connect-orange.png';
+import connectWhite from '../../assets/connect-white.png';
+import connectBlack from '../../assets/connect-black.png';
+import headerClient from '../../assets/header-banner/Header-Client.jpg';
 
-import clientLogos02 from '../assets/work/client-logos-02.png';
+import clientLogos02 from '../../assets/work/client-logos-02.png';
 
 class Work extends Component {
   render() {

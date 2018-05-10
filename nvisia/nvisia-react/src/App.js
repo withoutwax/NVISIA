@@ -10,13 +10,13 @@ import NVISIA from './assets/symbols/logo01.png'
 import Footer from './shared/Footer';
 
 import Home from './content/Home';
-import About from './content/About';
-import Work from './content/Work';
-import Services from './content/Services';
-import Blog from './content/Blog';
-import Events from './content/Events';
-import Careers from './content/Careers';
-import Contact from './content/Contact';
+import About from './content/About/About';
+import Work from './content/Work/Work';
+import Services from './content/Services/Services';
+import Blog from './content/Blog/Blog';
+import Events from './content/Events/Events';
+import Careers from './content/Careers/Careers';
+import Contact from './content/Contact/Contact';
 
 class App extends Component {
   render() {

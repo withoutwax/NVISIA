@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import './Careers.css';
 
-import connectOrange from '../assets/connect-orange.png';
-import connectWhite from '../assets/connect-white.png';
-import connectBlack from '../assets/connect-black.png';
-import headerBanner03 from '../assets/header-banner/Header-Careers.jpg';
+import connectOrange from '../../assets/connect-orange.png';
+import connectWhite from '../../assets/connect-white.png';
+import connectBlack from '../../assets/connect-black.png';
+import headerBanner03 from '../../assets/header-banner/Header-Careers.jpg';
 
 class Careers extends Component {
   render() {

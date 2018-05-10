@@ -3,19 +3,19 @@ import Cards from './EventsCard';
 import Tutorials from './EventsTutorial';
 import './Events.css';
 
-import connectOrange from '../assets/connect-orange.png';
-import connectWhite from '../assets/connect-white.png';
-import connectBlack from '../assets/connect-black.png';
-import headerBanner04 from '../assets/header-banner/Header-Events.png';
+import connectOrange from '../../assets/connect-orange.png';
+import connectWhite from '../../assets/connect-white.png';
+import connectBlack from '../../assets/connect-black.png';
+import headerBanner04 from '../../assets/header-banner/Header-Events.png';
 
-import logo02 from '../assets/symbols/logo02.png'; // NVISIA LOGO
-import mkeAgile from '../assets/events/mke-agile.png'; // MKE-AGILE LOGO
-import web414 from '../assets/events/web-414.png' // WEB-414 logo
-import docker from '../assets/events/docker-full.png'; // DOCKER LOGO
-import dockerTop from '../assets/events/docker-top.png'; // DOCKER TOP
-import dockerBottom from '../assets/events/docker-bottom.png'; // DOCKER BOTTOM
+import logo02 from '../../assets/symbols/logo02.png'; // NVISIA LOGO
+import mkeAgile from '../../assets/events/mke-agile.png'; // MKE-AGILE LOGO
+import web414 from '../../assets/events/web-414.png' // WEB-414 logo
+import docker from '../../assets/events/docker-full.png'; // DOCKER LOGO
+import dockerTop from '../../assets/events/docker-top.png'; // DOCKER TOP
+import dockerBottom from '../../assets/events/docker-bottom.png'; // DOCKER BOTTOM
 
-import videoThumb from '../assets/events/video-thumbnail.png'; // VIDEO THUMBNAIL
+import videoThumb from '../../assets/events/video-thumbnail.png'; // VIDEO THUMBNAIL
 
 class Events extends Component {
   render() {
