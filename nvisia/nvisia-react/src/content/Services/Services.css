@@ -1,0 +1,62 @@
+/* SECTION 01 */
+.services-section-01-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: auto;
+  grid-column-gap: 60px;
+
+}
+.services-section-01-banner-title {
+  justify-self: end;
+}
+/* Grid inside a grid */
+.services-section-01-banner-text > h1 {
+  font-size: 10em;
+  font-weight: bold;
+}
+
+/* SECTION 02 */
+.services-section-02-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: auto;
+  grid-column-gap: 60px;
+
+}
+.services-section-02-banner-title {
+  justify-self: end;
+}
+.services-section-02-banner-text > h1 {
+  font-size: 10em;
+  font-weight: bold;
+}
+.services-section-02-banner-text p {
+  font-size: 1em;
+}
+.services-section-02-banner-text span {
+  font-weight: 500;
+  color: #F58221;
+}
+
+/* SECTION 03 */
+.services-section-03-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  grid-column-gap: 60px;
+  grid-row-gap: 60px;
+}
+
+/* SECTION 04 */
+.services-section-04-container {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+
+/* SECTION 05 */
+.services-section-05-container {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
