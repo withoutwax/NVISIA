@@ -6,7 +6,7 @@ import './CaseStudy.css';
 class CaseStudy extends Component {
   render() {
     return (
-      <div className="case-study">
+      <div className="case-study box-shadow-grey-01 margin-bottom-200">
         <div className="case-study-01">
         {/* Case Study 01 */}
         <div className="case-study-type-A-image" >
