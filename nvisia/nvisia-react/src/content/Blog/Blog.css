@@ -1,0 +1,25 @@
+/* SECTION 01 */
+.blog-section-01-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: auto;
+  grid-column-gap: 60px;
+}
+.blog-section-01-banner-title {
+  justify-self: end;
+}
+
+/* SECTION 02 */
+.blog-section-02-container {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  grid-template-rows: auto;
+  grid-column-gap: 60px;
+}
+
+#blog-readmore {
+  display: grid;
+  justify-content: center;
+
+  color: #999999;
+}
